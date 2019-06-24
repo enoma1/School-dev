@@ -1,0 +1,49 @@
+
+#include<iostream>
+using namespace std;
+ 
+int main()
+{
+   int input, n , value, sum, product, i;
+   
+    
+sum = 0;
+product = 1;
+i = 0;
+
+cout << " what do you wish to calculate . input 1 for sum. input 2 for product" ;
+cin >> input ;
+ if ( input = 1)
+{
+cout << " please enter the number of values you wish to add";
+cin >> n;
+for ( i = 0; i < n ; i ++)
+{
+cout << " enter value ";
+cin >> value ;
+sum = sum + value;
+}
+cout << " sum = " << sum;
+
+}
+
+else if ( input = 2)
+{
+cout << " please enter the number of values you wish to multiply";
+cin >> n;
+for ( i = 0; i < n ; i ++)
+{
+cout << " enter value ";
+cin >> value ;
+product = product * value;
+
+}
+cout << " product = " << product;
+}
+else
+{
+cout << " invalid entry";
+}
+ 
+    return 0;
+}
