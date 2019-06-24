@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int age;
+    int current_year;
+    int year_born;
+    cout << "hello, how old are you? \n";
+    cin >> age;
+    cout << " enter the current year (i.e 2016)";
+    cin >> current_year; 
+    year_born = current_year - age ;
+
+    cout << " you are probably born in the year :%d " << & year_born << end ;
+    return 0;
+}
