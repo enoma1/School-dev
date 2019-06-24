@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int a, b, c, d;
+    float sum, average;
+    
+    printf("enter 4 numbers\n");
+    scanf("%d,%d,%d,%d",&a,&b,&c,&d);
+    
+    sum = a + b + c + d;
+    average = sum/4;
+    
+    printf("average = %f\n",average);
+    
+   return 0;
+}
