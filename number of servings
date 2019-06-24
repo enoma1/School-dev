@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int age;
+    printf("Enter age\n");
+    scanf("%d",&age);
+    
+    if (age <= 10) 
+    {
+        printf("The number of servings is 2\n");
+    }
+    else
+    {
+        printf("the number of servings is 3\n");
+    }
+}
