@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int m;
+    int a = 7;
+    int b = 4;
+    while (a > b)
+    {
+        m = a - b;
+        a = a - b;
+     }
+    printf("%d\n",m);
+}
