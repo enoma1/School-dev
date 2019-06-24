@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    int result;
+    char a[]= "RED";
+    char b[]= "BLACK";
+    char c[]= "GREEN";
+    char d[]= "black";
+    
+    result = strcmp(a,b);
+    printf("The result is %d\n",result);
+    return 0;
+} 
